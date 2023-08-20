@@ -136,6 +136,7 @@ img {
 .nav__logo {
   
   padding:20px 06px 05px 10px 06px ;
+  padding-top: 40px;
 
   width:90px;
   transition: all 0.3s;
