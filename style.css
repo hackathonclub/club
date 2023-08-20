@@ -103,6 +103,36 @@ p {
   color: #666;
 }
 
+
+.domains {
+  padding: 80px 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+
+}
+
+.domains h2 {
+  font-size: 50px;
+  text-align: center;
+  
+
+}
+.domain-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+.domains a{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
 /* This is BAD for accessibility! Don't do in the real world! */
 button:focus {
   outline: none;
@@ -112,8 +142,15 @@ img {
   transition: filter 0.5s;
 }
 
-.lazy-img {
-  filter: blur(20px);
+.lazy-img{
+  border-radius: 10px;
+}
+
+.lazy-img:hover {
+ 
+    transform:scale(1.03);
+    transition: 0.3s;   /*smooth*/
+    filter: drop-shadow(0 0 10px #333); 
 }
 
 /* NAVIGATION */
@@ -137,10 +174,10 @@ img {
   
   padding:20px 06px 05px 10px 06px ;
   padding-top: 40px;
-
   width:90px;
   transition: all 0.3s;
 }
+
 .nav__links {
   display: flex;
   align-items: center;
