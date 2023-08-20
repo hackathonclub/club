@@ -134,10 +134,12 @@ img {
 }
 
 .nav__logo {
-  height: 4.5rem;
+  
+  padding:20px 06px 05px 10px 06px ;
+
+  width:90px;
   transition: all 0.3s;
 }
-
 .nav__links {
   display: flex;
   align-items: center;
